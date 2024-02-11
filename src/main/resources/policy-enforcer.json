@@ -1,0 +1,22 @@
+{
+  "realm": "spring-test",
+  "auth-server-url": "http://localhost:8080",
+  "resource": "spring",
+  "credentials": {
+    "secret": "qw7OaNyi5MQuNDfSsSgKxQmNOSMdHm51"
+  },
+  "paths": [
+    {
+      "path": "/visitors/all",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/swagger-ui/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/v3/api-docs/*",
+      "enforcement-mode": "DISABLED"
+    }
+  ]
+}
