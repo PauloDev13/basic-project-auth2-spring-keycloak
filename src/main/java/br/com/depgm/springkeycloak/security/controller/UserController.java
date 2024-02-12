@@ -1,4 +1,4 @@
-package br.com.depgm.springkeycloak.controller;
+package br.com.depgm.springkeycloak.security.controller;
 
 import br.com.depgm.springkeycloak.dto.RoleDTO;
 import br.com.depgm.springkeycloak.dto.UserDTO;

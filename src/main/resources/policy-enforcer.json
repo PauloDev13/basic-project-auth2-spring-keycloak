@@ -7,6 +7,14 @@
   },
   "paths": [
     {
+      "path": "/auth/login",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/auth/logout",
+      "enforcement-mode": "DISABLED"
+    },
+    {
       "path": "/visitors/all",
       "enforcement-mode": "DISABLED"
     },

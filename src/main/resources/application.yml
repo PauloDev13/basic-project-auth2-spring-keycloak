@@ -1,15 +1,21 @@
 springdoc:
   swagger-ui:
     oauth:
-      client-id: spring
-      client-secret: qw7OaNyi5MQuNDfSsSgKxQmNOSMdHm51
+      client-id: ${clientId}
+      client-secret: ${clientSecret}
 
 server:
   port: 8081
 
+# VARIÁVEIS PARA CRIAR A INSTANCIA DO KEYCLOAK
 realm: spring-test
 server-url: http://localhost:8080
 client-id: admin-cli
 grant-type: password
 name: admin
 password: admin
+
+#VARIÁVEIS DE AMBIENTE
+tokenUrl: http://localhost:8080/realms/spring-test/protocol/openid-connect
+clientId: spring
+clientSecret: qw7OaNyi5MQuNDfSsSgKxQmNOSMdHm51

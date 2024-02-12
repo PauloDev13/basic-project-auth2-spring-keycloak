@@ -1,6 +1,5 @@
-package br.com.depgm.springkeycloak.controller;
+package br.com.depgm.springkeycloak.exception;
 
-import br.com.depgm.springkeycloak.exception.RecordNotFoundException;
 import jakarta.ws.rs.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
